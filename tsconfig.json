@@ -3,11 +3,23 @@
   "compilerOptions": {
     "strict": true,
     "noUncheckedIndexedAccess": false,
-    "types": ["node", "react", "expo"],
+    "types": [
+      "node",
+      "react",
+      "expo"
+    ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],
-  "exclude": ["node_modules", ".work"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    ".work"
+  ]
 }
